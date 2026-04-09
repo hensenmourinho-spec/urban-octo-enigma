@@ -1,0 +1,46 @@
+<html>
+	<head>
+		<title>Formative/Summative 2 Form</title>
+		<link rel = "stylesheet" href = "Summative2.css">
+	</head>
+	
+	<body>
+		<div class = "formbox">
+			<h1 class = "title">Formulir Pendaftaran Siswa</h1>
+			<h6 class = "subtitle">Isi dengan lengkap dan benar!</h6>
+			<label>Nama Lengkap: </label>
+			<input type = "text" id = "name" placeholder = "Contoh: Muhammad Raihan" required class = "textinput">
+			<h6>Nama sesuai identitas</h6>
+			
+			<label>Kelas: </label>
+			<input type = "text" id = "grade" placeholder = "Contoh: XII IPA 2/ 11A/ 7B" required class = "textinput">
+			<h6>Kelas saat ini/tujuan</h6>
+			
+			<label class = "optiontitle"> Pilih Extrakurrikuler (3 pilihan)</label>
+			<div class = "optionbox">
+				<label><input type = "checkbox" name = "sports">Basketball</label>
+				<label><input type = "checkbox" name = "sports">Futsal</label>
+				<label><input type = "checkbox" name = "sports">Paduan Suara</label>
+			</div>
+			<h6>Boleh memilih lebih dari satu (opsional)</h6>
+			
+			<label class = "optiontitle"> Pilih Jadwal Belajar (wajib pilih salah satu)</label>
+			<div class = "optionbox">
+				<label><input type = "radio" name = "timework" value = "Pagi (07.00 - 12.00)">Pagi (07.00 - 12.00)</label>
+				<label><input type = "radio" name = "timework" value = "Siang (12.30 - 17.00)">Siang (12.30 - 17.00)</label>
+				<label><input type = "radio" name = "timework" value = "Sore (17.30 - 20.30)">Sore (17.30 - 20.30)</label>
+				<label><input type = "radio" name = "timework" value = "Campuran (fleksibel)">Campuran (fleksibel)</label>
+			</div>
+			<h6>*satu pilihan wajib dipilih untuk kelengkapan data</h6>
+			
+			<label><button id = "button1" class = "showBTN">Daftar Sekarang</button></label>
+			<label><button id = "button2" class = "resetBTN">Reset Form</button></label>
+			
+			<div class = "resultbox" id = "result">
+				Data Anda akan ditampilkan disini!
+			</div>
+			
+			<script src = "Summative2.js"></script>
+		</div>
+	</body>
+</html>
