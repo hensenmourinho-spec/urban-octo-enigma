@@ -1,0 +1,84 @@
+body{
+	background: linear-gradient(90deg, black, white, black);
+	font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+}
+
+.title{
+	text-align: center;
+}
+
+.subtitle{
+	text-align: center;
+}
+
+.formbox{
+	max-width: 500px;
+	background: white;
+	padding: 20px;
+	border-radius: 6px;
+	margin: auto;
+	box-shadow: 0px 0px 5px 0px grey;
+}
+
+label{
+	display: block;
+	margin-top: 10px;
+	font-weight: bold;
+}
+
+.textinput{
+	width: 100%;
+	height: 50px;
+	display: block;
+	margin-top: 10px;
+	border-radius: 5px;
+	font-size: 12px;
+}
+
+.optiontitle{
+	border-left: 5px solid #6ba4ff;
+	margin-bottom: 10px;
+}
+
+.optionbox{
+	max-height: 300px;
+	max-width: 500px;
+	background: white;
+	padding: 20px;
+	border-radius: 6px;
+	border: 2px solid black;
+	margin: auto;
+	box-shadow: 0px 0px 5px 0px grey;
+}
+
+h6{
+	color: grey;
+	margin-top: 0px;
+}
+
+.showBTN{
+	width: 100%;
+	background: white;
+	padding: 20px;
+	border-radius: 50px;
+	margin: auto;
+	box-shadow: 0px 0px 5px 0px grey;
+}
+
+.resetBTN{
+	width: 100%;
+	background: white;
+	padding: 20px;
+	border-radius: 50px;
+	margin: auto;
+	box-shadow: 0px 0px 5px 0px grey;
+}
+
+.resultbox{
+	max-width: 500px;
+	background: white;
+	padding: 20px;
+	border-radius: 6px;
+	margin: auto;
+	border-left: 5px solid grey;
+}
